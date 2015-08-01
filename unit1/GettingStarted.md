@@ -58,6 +58,7 @@ c = 1 // 明确赋值
 ```kotlin
 var x = 5 // 系统自动推断变量类型为Int
 x += 1
+```
 
 ####4.使用泛型Array<String>
 ```kotlin
@@ -81,3 +82,120 @@ fun max(a: Int, b: Int) = if (a > b) a else b
 ```
 
 ####6.使用nullable值以及空值检测
+引用或函数返回值如果可能为null值，则必须显式标记nullable。
+(*译者注* ：在类型后面跟一个问号表示这个对象可能为空，跟两个感叹号表示这个类型一定不为空)
+```kotlin
+fun main(args: Array<String>) { 
+  if (args.size() < 2) {
+    print("Two integers expected")
+    return
+  }
+
+  val x = parseInt(args[0])
+  val y = parseInt(args[1])
+
+  //必须做判断，因为x或y有可能为空
+  if (x != null && y != null) {
+    // x 和 y 在已经检测不为null时，系统会自动将其转换为非空类型
+    check print(x * y)
+  } 
+}
+
+/**
+ * 如果str不能转为Int类型，则返回null
+ */
+fun parseInt(str: String): Int? { 
+  // (代码略)
+}
+```
+
+####7.类型检测并自动转换
+is关键字的用法(类似于Java中的instanceof关键字)  
+例1  
+```kotlin
+fun getStringLength(obj: Any): Int? {
+  if (obj is String) {
+    // 做过类型判断以后，obj会被系统自动转换为String类型
+    return obj.length 
+  }
+
+  //在这里还有一种方法，与Java中instanceof不同，使用!is
+  // if (obj !is String){
+  //   // XXX
+  // }
+
+  // 这里的obj仍然是Any类型的引用
+  return null
+}
+```
+
+例2
+```kotlin
+fun getStringLength(obj: Any): Int? {
+  // 在左侧obj已经被判断为String类型，所以在&&的右侧可以直接将obj当成String类型来使用
+  if (obj is String && obj.length > 0) {
+    return obj.length 
+  }
+  return null
+}
+```
+
+####8.循环的使用
+例1：for循环
+```kotlin
+fun main(args: Array<String>) { 
+  for (arg in args)
+    print(arg) 
+}
+
+//或者也可以
+for (i in args.indices) 
+  print(args[i])
+```
+
+例2：while循环
+```kotlin
+fun main(args: Array<String>) { 
+  var i = 0
+  while (i < args.size())
+    print(args[i++]) 
+}
+```
+
+####9.when表达式
+（类似于Java中的switch）  
+```kotlin
+fun cases(obj: Any) { 
+  when (obj) {
+    1       -> print("第一项")
+    "hello" -> print("这个是字符串hello")
+    is Long -> print("这是一个Long类型数据")
+    !is String -> print("这不是String类型的数据")
+    else    -> print("else类似于Java中的default")
+  }
+}
+```
+
+####10.in关键字的使用
+如果一个数字是在某一个区间内，可以使用in关键字  
+```kotlin
+//打印y次OK
+if (x in 1..y-1) 
+  print("OK")
+
+//如果x不存在于array中，则输出Out
+if (x !in 0..array.lastIndex) 
+  print("Out")
+
+//打印1到5
+for (x in 1..5) 
+  print(x)
+
+//遍历集合(类似于Java中的for(String name : names))
+for (name in names)
+  println(name)
+
+//如果names集合中包含text对象则打印yes
+if (text in names)
+  print("yes")
+```  
