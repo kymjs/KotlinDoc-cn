@@ -1,4 +1,4 @@
-##[第一章](https://github.com/kymjs/KotlinDoc-cn)
+##[第一章](https://github.com/kymjs/KotlinDoc-cn#第一章)
 ---
 
 ###基础语法  
