@@ -11,4 +11,5 @@ Kotlin开发环境配置http://blog.kymjs.com/code/2015/07/22/01/
 
 ##翻译进度
 ####第一章：
->[基础语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/GettingStarted.md)
+>[基础语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/GettingStarted.md)  
+>[常用语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/Idioms.md)
