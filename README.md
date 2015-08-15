@@ -14,3 +14,5 @@ Kotlin开发环境配置http://blog.kymjs.com/code/2015/07/22/01/
 >[基础语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/GettingStarted.md)    
 >[常用语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/Idioms.md)  
 >[编码风格](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/CodingConventions.md)  
+####第二章：  
+>[基础数据类型]()
