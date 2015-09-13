@@ -12,19 +12,31 @@ kotlin开发的Android应用https://github.com/kymjs/CodeCafe
 本项目的英语原本https://github.com/kymjs/KotlinDoc-cn/blob/master/kotlin-docs.pdf  
 
 ##翻译进度
-####第一章：
+####第一章（准备开始）：
 >[基础语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/GettingStarted.md)    
 >[常用语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/Idioms.md)  
 >[编码风格](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/CodingConventions.md)  
-####第二章：  
+
+####第二章（基础）：  
 >[基础数据类型](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/BasicsType.md)   
 >[包](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/Packages.md)   
 >[控制流](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/ControlFlow.md)    
 >[返回与跳转](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/ReturnsJumps.md)   
-####第三章：  
+
+####第三章（类与对象）：  
 >[类与继承](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/ClassesInheritance.md)   
 >[属性与字段](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/PropertiesFields.md)     
 >[接口](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Interfaces.md)     
->[范围修饰符(例如public)](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/VisibilityModifiers.md) 
+>[范围修饰符(例如public)](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/VisibilityModifiers.md)   
 >[扩展](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Extensions.md)     
+>[数据类(javabean)](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/DataClasses.md)     
+>[泛型(Generics)(未完)](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Generics.md)     
+>[内部类](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Nested.md)     
+>[枚举](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Enum.md)     
+>[对象表达式和声明](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/ObjectExpressions.md)     
+>[代理](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Delegation.md)     
+>[属性代理](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/DelegatedProperties.md)     
+
+####第四章(函数与lambda表达式)
+
 
