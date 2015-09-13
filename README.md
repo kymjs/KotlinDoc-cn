@@ -7,7 +7,9 @@ Kotlin是一门基于jvm的新语言，可以用来开发Android应用，其优�
 
 ##相关链接
 Kotlin开发环境配置http://blog.kymjs.com/code/2015/07/22/01/  
-英语原本https://github.com/kymjs/KotlinDoc-cn/blob/master/kotlin-docs.pdf  
+一个Kotlin开发的简单Android登录功能http://blog.kymjs.com/code/2015/08/03/01/  
+kotlin开发的Android应用https://github.com/kymjs/CodeCafe  
+本项目的英语原本https://github.com/kymjs/KotlinDoc-cn/blob/master/kotlin-docs.pdf  
 
 ##翻译进度
 ####第一章：
@@ -15,4 +17,14 @@ Kotlin开发环境配置http://blog.kymjs.com/code/2015/07/22/01/
 >[常用语法](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/Idioms.md)  
 >[编码风格](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit1/CodingConventions.md)  
 ####第二章：  
->[基础数据类型]()
+>[基础数据类型](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/BasicsType.md)   
+>[包](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/Packages.md)   
+>[控制流](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/ControlFlow.md)    
+>[返回与跳转](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit2/ReturnsJumps.md)   
+####第三章：  
+>[类与继承](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/ClassesInheritance.md)   
+>[属性与字段](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/PropertiesFields.md)     
+>[接口](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Interfaces.md)     
+>[范围修饰符(例如public)](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/VisibilityModifiers.md) 
+>[扩展](https://github.com/kymjs/KotlinDoc-cn/blob/master/unit3/Extensions.md)     
+
